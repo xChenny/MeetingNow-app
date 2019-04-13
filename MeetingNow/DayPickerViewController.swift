@@ -27,9 +27,6 @@ extension DayPickerViewController: JTAppleCalendarViewDelegate, JTAppleCalendarV
         formatter.timeZone = Calendar.current.timeZone
         formatter.locale = Calendar.current.locale
         
-//        let dateObj = Date()
-//        let startDate = dateObj.startOfMonth()
-//        let endDate = dateObj.endOfMonth()
         let startDate = formatter.date(from: "2017 01 01")!
         let endDate = formatter.date(from: "2017 12 31")!
 

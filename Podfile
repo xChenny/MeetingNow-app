@@ -7,5 +7,6 @@ target 'MeetingNow' do
 
   # Pods for MeetingNow
   pod 'JTAppleCalendar', '~> 7.0'
+  pod 'Alamofire', '~> 5.0.0-beta.3'
 
 end

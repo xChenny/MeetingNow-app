@@ -11,6 +11,7 @@
 		54A98B9E2221EDEA00A42CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A98B9C2221EDEA00A42CCB /* Main.storyboard */; };
 		54A98BA02221EDEC00A42CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A98B9F2221EDEC00A42CCB /* Assets.xcassets */; };
 		54A98BA32221EDEC00A42CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A98BA12221EDEC00A42CCB /* LaunchScreen.storyboard */; };
+		54B7A6102261705F00AE2366 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B7A60F2261705F00AE2366 /* Test.swift */; };
 		54CD605C22443F6000E5B29D /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD605B22443F6000E5B29D /* DayCell.swift */; };
 		54CD605F2244422900E5B29D /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD605E2244422900E5B29D /* DayPickerViewController.swift */; };
 		54D756EB2244371B000F1243 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D756EA2244371B000F1243 /* StartScreenViewController.swift */; };
@@ -25,6 +26,7 @@
 		54A98B9F2221EDEC00A42CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A98BA22221EDEC00A42CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54A98BA42221EDEC00A42CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B7A60F2261705F00AE2366 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		54CD605B22443F6000E5B29D /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
 		54CD605E2244422900E5B29D /* DayPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerViewController.swift; sourceTree = "<group>"; };
 		54D756EA2244371B000F1243 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				54A98BA12221EDEC00A42CCB /* LaunchScreen.storyboard */,
 				54A98BA42221EDEC00A42CCB /* Info.plist */,
 				54D756EA2244371B000F1243 /* StartScreenViewController.swift */,
+				54B7A60F2261705F00AE2366 /* Test.swift */,
 			);
 			path = MeetingNow;
 			sourceTree = "<group>";
@@ -180,12 +183,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MeetingNow/Pods-MeetingNow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +229,7 @@
 			files = (
 				54A98B952221EDEA00A42CCB /* AppDelegate.swift in Sources */,
 				54CD605C22443F6000E5B29D /* DayCell.swift in Sources */,
+				54B7A6102261705F00AE2366 /* Test.swift in Sources */,
 				54D756EB2244371B000F1243 /* StartScreenViewController.swift in Sources */,
 				54CD605F2244422900E5B29D /* DayPickerViewController.swift in Sources */,
 			);
